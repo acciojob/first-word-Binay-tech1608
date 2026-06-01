@@ -4,9 +4,8 @@ function firstWord(s) {
 	  return "";
   }
   else{
-	  let str = s.trim();
-	  let regex = /^+\s/;
-	  return regex.exec(str);
+	  let regex = /^\S+/;
+	  return regex.exec(s.trim()); 
   } 
 }
 
