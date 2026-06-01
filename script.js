@@ -5,12 +5,11 @@ function firstWord(s) {
   }
   else{
 	  let str = s.trim();
-	  let regex = /[a-z]+\s/;
+	  let regex = /^+\s/;
 	  return regex.exec(str);
-  }
+  } 
 }
 
 // Do not change the code below
-
 const s = prompt("Enter String:");
 alert(firstWord(s));
