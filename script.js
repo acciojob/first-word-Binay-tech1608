@@ -10,7 +10,7 @@ function firstWord(s) {
 
 
 	let str = s.trim();
-	let index = s.indexof(" ");
+	let index = s.indexOf(" ");
 	if(index === -1){
 		return str;
 	}
@@ -19,5 +19,5 @@ function firstWord(s) {
 	}
 }   
 // Do not change the code below
-// const s = prompt("Enter String:");
-// alert(firstWord(s));
+const s = prompt("Enter String:");
+alert(firstWord(s));
